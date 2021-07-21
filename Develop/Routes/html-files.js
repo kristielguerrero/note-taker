@@ -8,7 +8,3 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 };
-
-// GET /notes should return the notes.html file.
-
-// GET * should return the index.html file.
